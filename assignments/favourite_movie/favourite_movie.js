@@ -4,7 +4,7 @@ function favouriteMovie(operation, movie) {
     if (operation=="add"){
         movies.push(movie);
     }
-    else if(length(movies)>=1){
+    else if(movies.length>=1){
         movies.pop();
     }
     return movies;
